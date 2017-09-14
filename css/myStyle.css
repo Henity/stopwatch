@@ -1,0 +1,81 @@
+/* 
+using FlexBox - by Henry
+*/
+html {
+	box-sizing: border-box;
+	background-color: #000;
+}
+
+body{
+	min-width: 320px;
+	max-width: 1366px;
+	margin: 0 auto;
+	width: 100%;
+	font-size: 16px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;	
+}
+
+/* Parent */
+.row{ 
+	display: flex; 
+	flex-direction: column;
+}
+
+/* Child */
+.col{ 
+	flex: 1; 
+	margin: 0.6em; /* important. It is needed to seperate the column */
+	padding: 0.6em;
+	color: #fff;
+	background-color: #000;
+	border: 1px solid #fff;
+}
+/* above is all that is needed to make a simple grid system with flex */
+
+.label{	font-size: 2em;	}
+
+#dWatch{	
+	padding: 1em;
+	text-align: center;
+	font-size: 3em;
+}
+.aniBar{
+	width: 0px;
+	height: 1px;
+	background-color: #4b276b;
+	margin: 0 auto;
+	opacity: 0;
+}
+
+p{
+	text-align: center;	
+	padding: 1em;
+}
+
+.lineUp{
+	display: inline-block;
+	text-align: center;	
+	width: 50%;
+	margin: 0 auto;
+}
+
+ul{
+	padding: 1em;
+}
+
+ul li{
+	display: inline-block;
+	list-style-type: none;
+	padding: 0 2em;
+}
+
+button{
+	width: 75px;
+	height: 50px;
+	border: 1px solid #9c4ddd;
+	border-radius: 5px;
+	background-color: #4b276b;
+	outline: none;
+	font-size: 1em;
+}

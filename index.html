@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  		<meta charset="UTF-8">
+  		<meta name="description" value="">
+		<meta name="keywords" vaule="">
+  		<title>Henry's Timer</title>
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<!-- <link rel="stylesheet" href="css/reset.css"> -->
+		<link type="text/css" rel="stylesheet" href="css/myStyle.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<div class="row">
+			<p>Timer</p>
+			<div class="lineUp label">Hrs:Mins:Secs</div>
+			<div id="dWatch"></div>	
+			<div class="aniBar"></div>	
+			<ul class="lineUp">
+				<li><button onclick="stopTimer();" data-clicked="no">Stop</button></li>
+				<li><button onclick="startTimer();" data-clicked="no">Start</button></li>
+				<li><button onclick="resetTimer();" data-clicked="no">Clear</button></li>
+			</ul>
+		</div>
+		<div class="row">
+			<p>Henity</p>
+		</div>
+		<script type="text/javascript" src="js/myJS.js"></script>		
+	</body>
+</html>
